@@ -1,0 +1,66 @@
+.todo-h1{
+	color: rgba(175,47,47,0.5);
+	font-size: 50px;
+}.todo-h1 span{
+	color: rgb(0,255,0);
+	font-size: 100px;
+}
+.input_div,.item,.name_logo{
+	text-align: center;
+}
+.ip-box{
+	padding: 16px 16px 16px 60px;
+	width: 500px;
+	margin: auto;
+	font: 24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	box-shadow: inset 2px 2px 5px 1px rgba(34,34,65,0.3);
+	border: none;
+	border-radius: 20px;
+	outline: none;
+}
+#btn{
+	font-size: 24px;
+	color:#00ff00;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	height: 55px;
+	box-shadow: inset 2px 2px 5px 1px rgba(34,34,65,0.3);
+	font-weight: bold;
+	background-color: rgba(175,47,47,0.5);
+}
+#item span{
+	width: 500px;
+	margin: auto;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	color: red;
+	font-size: 24px;
+	border-bottom: 4px solid#FF0101;
+}
+.item_input{
+	padding: 32px 0px 10px 0px;
+	width: 350px;
+	margin: auto;
+	font: 24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	border: none;
+	outline: none;
+}
+#edit{
+	color: #02FB11 ;
+	outline: none;
+	margin-right: 5px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font: 20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#remove{
+	color:#FF014A ;
+	outline: none;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font: 20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
