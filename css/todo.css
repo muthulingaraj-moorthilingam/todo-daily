@@ -5,7 +5,7 @@
 	color: rgb(0,255,0);
 	font-size: 100px;
 }
-.input_div,.item,.name_logo{
+.input_div,.item,#name_logo{
 	text-align: center;
 }
 .ip-box{
@@ -29,38 +29,24 @@
 	font-weight: bold;
 	background-color: rgba(175,47,47,0.5);
 }
-#item span{
+#item div {
 	width: 500px;
 	margin: auto;
-	display: block;
+	display: flex;
+	flex-direction: row;
 	margin-top: 10px;
-	text-align: center;
 	color: red;
-	font-size: 24px;
-	border-bottom: 4px solid#FF0101;
+	font-size: 15px;
+}
+#item span,input{
+	width: 376px;
 }
 .item_input{
 	padding: 32px 0px 10px 0px;
 	width: 350px;
 	margin: auto;
-	font: 24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font: 15px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	border: none;
 	outline: none;
 }
-#edit{
-	color: #02FB11 ;
-	outline: none;
-	margin-right: 5px;
-	background-color: transparent;
-	border: none;
-	outline: none;
-	font: 20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-#remove{
-	color:#FF014A ;
-	outline: none;
-	background-color: transparent;
-	border: none;
-	outline: none;
-	font: 20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+ 
